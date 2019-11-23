@@ -9,7 +9,7 @@ public class Readallrows {
 
 	public static void main(String[] args)throws Throwable {
 		//read excel path
-				FileInputStream fi=new FileInputStream("D:\TESTING\Dummy.Xlsx.xlsx");
+				FileInputStream fi=new FileInputStream("D://Dummy.xlsx");
 				//get workbook from file
 				XSSFWorkbook wb=new XSSFWorkbook(fi);
 				//get sheet from wb
